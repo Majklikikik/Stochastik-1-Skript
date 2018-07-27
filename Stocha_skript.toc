@@ -147,7 +147,7 @@
 \contentsline {subsection}{\numberline {13.3}Satz}{70}{subsection.13.3}
 \contentsline {subsection}{\numberline {13.4}Bemerkung}{71}{subsection.13.4}
 \contentsline {subsection}{\numberline {13.5}Beispiel (Exponentialfamilie)}{71}{subsection.13.5}
-\contentsline {section}{\numberline {14}Bayer-Sch\IeC {\"a}tzer}{72}{section.14}
+\contentsline {section}{\numberline {14}Bayes-Sch\IeC {\"a}tzer}{72}{section.14}
 \contentsline {subsection}{\numberline {14.1}Definition}{72}{subsection.14.1}
 \contentsline {subsection}{\numberline {14.2}Modell}{72}{subsection.14.2}
 \contentsline {subsection}{\numberline {14.3}Bemerkung}{72}{subsection.14.3}

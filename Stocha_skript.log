@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.20)  19 JUL 2018 16:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.20)  27 JUL 2018 16:40
 entering extended mode
 **./Stocha_skript.tex
 (Stocha_skript.tex
@@ -771,26 +771,6 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files\MiKTeX 2.92\tex\latex\caption\caption.sty"
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-
-("C:\Program Files\MiKTeX 2.92\tex\latex\caption\caption3.sty"
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen136
-\captionmargin@=\dimen137
-\captionwidth=\dimen138
-\caption@tempdima=\dimen139
-\caption@indent=\dimen140
-\caption@parindent=\dimen141
-\caption@hangindent=\dimen142
-)
-\c@ContinuedFloat=\count129
-Package caption Info: float package is loaded.
-Package caption Info: hyperref package is loaded.
-Package caption Info: listings package is loaded.
-Package caption Info: wrapfig package is loaded.
-)
 ("C:\Program Files\MiKTeX 2.92\tex\latex\marvosym\marvosym.sty"
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 )
@@ -804,15 +784,15 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count130
-\l_MT_multwidth_dim=\dimen143
+\g_MT_multlinerow_int=\count129
+\l_MT_multwidth_dim=\dimen136
 \origjot=\skip63
-\l_MT_shortvdotswithinadjustabove_dim=\dimen144
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen145
-\l_MT_above_intertext_sep=\dimen146
-\l_MT_below_intertext_sep=\dimen147
-\l_MT_above_shortintertext_sep=\dimen148
-\l_MT_below_shortintertext_sep=\dimen149
+\l_MT_shortvdotswithinadjustabove_dim=\dimen137
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen138
+\l_MT_above_intertext_sep=\dimen139
+\l_MT_below_intertext_sep=\dimen140
+\l_MT_above_shortintertext_sep=\dimen141
+\l_MT_below_shortintertext_sep=\dimen142
 )
 ("C:\Program Files\MiKTeX 2.92\tex\latex\scalerel\scalerel.sty"
 Package: scalerel 2016/12/29 v1.8 Routines for constrained scaling and stretchi
@@ -820,7 +800,7 @@ ng of objects, relative to a reference object or in absolute terms
 
 ("C:\Program Files\MiKTeX 2.92\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count131
+\etb@tempcnta=\count130
 )
 \thesrwidth=\skip64
 \thesrheight=\skip65
@@ -836,12 +816,12 @@ ways
 
 ("C:\Program Files\MiKTeX 2.92\tex\latex\listofitems\listofitems.sty"
 ("C:\Program Files\MiKTeX 2.92\tex\generic\listofitems\listofitems.tex"
-\loi_nestcnt=\count132
+\loi_nestcnt=\count131
 )
 Package: listofitems 2018/03/13 v1.53 Grab items in lists using user-specified 
 sep char (CT)
 )
-\c@@stackindex=\count133
+\c@@stackindex=\count132
 \@boxshift=\skip71
 \stack@tmplength=\skip72
 \temp@stkl=\skip73
@@ -850,7 +830,7 @@ sep char (CT)
 \@anchorbox=\box37
 \stackedbox=\box38
 \@centerbox=\box39
-\c@ROWcellindex@=\count134
+\c@ROWcellindex@=\count133
 )
 (Stocha_skript.aux
 
@@ -881,7 +861,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.92\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count135
+\c@section@level=\count134
 )
 LaTeX Info: Redefining \ref on input line 126.
 LaTeX Info: Redefining \pageref on input line 126.
@@ -894,16 +874,16 @@ LaTeX Info: Redefining \nameref on input line 126.
 
 ("C:\Program Files\MiKTeX 2.92\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count136
-\scratchdimen=\dimen150
+\scratchcounter=\count135
+\scratchdimen=\dimen143
 \scratchbox=\box41
-\nofMPsegments=\count137
-\nofMParguments=\count138
+\nofMPsegments=\count136
+\nofMParguments=\count137
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count139
-\MPscratchDim=\dimen151
-\MPnumerator=\count140
-\makeMPintoPDFobject=\count141
+\MPscratchCnt=\count138
+\MPscratchDim=\dimen144
+\MPnumerator=\count139
+\makeMPintoPDFobject=\count140
 \everyMPtoPDFconversion=\toks41
 ) ("C:\Program Files\MiKTeX 2.92\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -926,14 +906,11 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-\c@lstlisting=\count142
+\c@lstlisting=\count141
 
 ("C:\Program Files\MiKTeX 2.92\tex\latex\ucs\ucsencs.def"
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
-)
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
- (Stocha_skript.toc
+) (Stocha_skript.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 
 ("C:\Program Files\MiKTeX 2.92\tex\latex\amsfonts\umsa.fd"
@@ -1055,13 +1032,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 419--420
 
  []
 
-
-Underfull \hbox (badness 3568) in paragraph at lines 421--422
-[]$\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 := [] \OML/cmm/m/it/10 E [] :$ \T1/cmr/m/
-n/10 Sei-en $\OML/cmm/m/it/10 v \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 k > \OT1/cm
-r/m/n/10 0$\T1/cmr/m/n/10 . Of-fen-sicht-lich gilt
- []
-
 [15] [16]
 Underfull \hbox (badness 10000) in paragraph at lines 493--494
 
@@ -1116,7 +1086,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 582--590
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 597--597
+Underfull \hbox (badness 2142) in paragraph at lines 597--597
 \T1/cmr/m/n/10 Seien $[][] \OML/cmm/m/it/10 ; X$ \T1/cmr/m/n/10 Zu-falls-va-ria
 -blen mit Ver-tei-lungs-funk-tio-nen $\OML/cmm/m/it/10 F[]\OT1/cmr/m/n/10 (\OML
 /cmm/m/it/10 t\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 !
@@ -1467,7 +1437,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2234.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2234.
 
 Package rerunfilecheck Info: File `Stocha_skript.out' has not changed.
-(rerunfilecheck)             Checksum: 7EDC7FF55D57D932977AA51F0434BBC7;10760.
+(rerunfilecheck)             Checksum: 8845F1B6BBBFF311FF9196844F40EE3D;10760.
 
 
 LaTeX Warning: There were undefined references.
@@ -1478,10 +1448,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2234.
  ) 
 Here is how much of TeX's memory you used:
- 13679 strings out of 493323
- 193331 string characters out of 3138629
- 317247 words of memory out of 3000000
- 16492 multiletter control sequences out of 15000+200000
+ 12674 strings out of 493323
+ 174756 string characters out of 3138629
+ 297769 words of memory out of 3000000
+ 15493 multiletter control sequences out of 15000+200000
  18867 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,21n,45p,935b,739s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1514,7 +1484,7 @@ rvosym.pfb><C:/Program Files/MiKTeX 2.92/fonts/type1/public/amsfonts/symbols/ms
 bm10.pfb><C:/Program Files/MiKTeX 2.92/fonts/type1/public/amsfonts/symbols/msbm
 5.pfb><C:/Program Files/MiKTeX 2.92/fonts/type1/public/amsfonts/symbols/msbm7.p
 fb>
-Output written on Stocha_skript.pdf (74 pages, 2204551 bytes).
+Output written on Stocha_skript.pdf (74 pages, 2204333 bytes).
 PDF statistics:
  1980 PDF objects out of 2073 (max. 8388607)
  489 named destinations out of 1000 (max. 500000)

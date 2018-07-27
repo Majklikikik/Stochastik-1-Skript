@@ -250,7 +250,7 @@ für alle unabhängigen Folgen von Zufallsvariablen mit endlichem Erwartungswert
 \pagebreak
 
 \section{Konvergenzarten: fast sicher, stochastisch, in Lp}
-$\left(X_n\right)_{n\in\N}$ sei nun stets eine Folge von Zufallsvariablen und $X$ eine Zufallsvariable mit $X-n, X:\raum\rightarrow\left(\R^d,B\left(\R^d\right)\right)$.\\
+$\left(X_n\right)_{n\in\N}$ sei nun stets eine Folge von Zufallsvariablen und $X$ eine Zufallsvariable mit $X_n, X:\raum\rightarrow\left(\R^d,B\left(\R^d\right)\right)$.\\
 Dann gilt \[\underbrace{\lbrace\lim\limits_{n\rightarrow\infty}X_n=X\rbrace}_{\glqq \text{Menge aller }\omega\text{, sodass }\lim\text{ existiert und gleich X ist}\grqq}\in\f\]
 
 \subsection{Definition (Verschiedene Konvergenzarten (p,f.s.,Lp))}
@@ -258,7 +258,7 @@ Wir sagen \begin{enumerate}
 \item $X_n$ konvergiert p-fast sicher gegen X, falls
 \[P\left(\lbrace\lim\limits_{n\rightarrow\infty}X_n=X\rbrace\right)=1,\ \text{ in Zeichen: } X_n\xrightarrow{f.s.}X\].
 \item $X_n$ konvergiert stochastisch in Wahrscheinlichkeit gegen $X$, falls \[ P\left(\Vert X_n-X\Vert >\varepsilon\right)\xrightarrow[n\rightarrow\infty]{}0\ \forall\varepsilon > 0\text{ in Zeichen: } X_n\xrightarrow{p}X\].
-\item $X_n$ konvergiert in $mc{L}^p\left(P\right)$ gegen X für $p\in(0,\infty)$, falls \begin{list}{}{}
+\item $X_n$ konvergiert in $\mc{L}^p\left(P\right)$ gegen X für $p\in(0,\infty)$, falls \begin{list}{}{}
 \item $\Vert X_n \Vert , \Vert X \Vert \in \mc{L}^p\ \forall n \in \N\ \  (E(\Vert X_n\Vert )<\infty, E(\Vert X \Vert)<\infty)$
 \item $E(\Vert X_n-X \Vert^p)\xrightarrow[n\rightarrow\infty]{}0$ 
 \end{list}
@@ -313,7 +313,7 @@ In der Regel vernachlässigt man Unterschiede auf Nullmengen und nennt f.s. glei
 \end{list}
 \item Man kann zeigen: \\
 $\mc{L}^p$ ist für $p\in (0,1)$ ein vollständiger metrischer Raum mit Metrik $d(X,Y)=E(\Vert X-Y\Vert^p)$
-\item Da $P(\Omega)=1$ gilt $\mc{L}^q\subseteq \mc{L}^p\ \forall p,q\in\R^+$ mit $q^p$
+\item Da $P(\Omega)=1$ gilt $\mc{L}^q\subseteq \mc{L}^p\ \forall p,q\in\R^+$ mit $q>p$
 \item Fast sichere Konvergenz ist nicht metrisierbar.
 \end{enumerate}
 
@@ -397,7 +397,7 @@ Weitere wichtige Konvergenzsätze nutzen das Konzept der Gleichgradigen Integrie
 Sie $\mc{I}$ eine Indexmenge. Eine Familie $\folge[\mc{I}]{X}{i}$ von Zufallsvariablen heißt \underline{gleichgradig integrierbar}, (UI), falls\\ $\forall\varepsilon>0\ \exists k>0:\ E\brc{\norm{X_i}1_{\brac{\norm{X_i}>k}}}<\varepsilon\ \forall i\in\mc{I}$
 
 \subsection{Lemma (Einelementige Familien sind UI)}
-Sei $X\in\mc{L}^1$. Dann $\forall\varepsilon>0\ \exists k>0:\ E\brc{\norm{X}1_{\brac{\norm{X}>k}}}<\varepsilon$, d.h. jede einelementige Familie integrierbarer Zufallsvariablen ist gleichgradig integrierbar.
+Sei $X\in\mc{L}^1$. Dann $\forall\varepsilon>0\ \exists k>0:\ E\brc{\norm{X}1_{\brac{\norm{X}>k}}}<\varepsilon$, d.h. jede einelementige Familie integrierbarer Zufallsvariablen ist gleichgradig integrierbar.\\
 \textbf{Beweis}
 Es gilt $\norm{X}1_{\brac{\norm{X}>k}}\xrightarrow[k\rightarrow\infty]{f.s.}0$ und $\norm{X}1_{\brac{\norm{X}>k}}\leq \norm{X}\in\lp{1}$. \\
 Dominierte Konvergenz ergibt somit \\
@@ -418,13 +418,13 @@ Die Umkehrung gilt nicht.
 \end{enumerate}
 \beweis
 \begin{enumerate}[label=(\alph*)]
-\item $A:=\sup\limits_{i\in\mc{I}}E\brc{\norm{X_i}^p}.$ Seien  $v\geq k >0$. Offensichtlich gilt $E\brc{\norm{X_i}1_{\brac{\norm{X_i}>k}}}\leq k^{1-p}E\brc{\norm{X_i}^p1_{\brac{\norm{X_i}>k}}}\leq k^{1-p}A$
-\item Offenstichtlich, da $E\brc{\norm{X_i}1_{\brac{\norm{X_i}>k}}}\leq E\brc{Y1_{\brac{\norm{X_i}>k}}}$
+\item $A:=\sup\limits_{i\in\mc{I}}E\brc{\norm{X_i}^p}.$ Seien  $ v \geq  k > 0 $\\ Offensichtlich gilt $v\leq k^{1-p}v^p$. Somit folgt\\ $E\brc{\norm{X_i}1_{\brac{\norm{X_i}>k}}}\leq k^{1-p}E\brc{\norm{X_i}^p1_{\brac{\norm{X_i}>k}}}\leq k^{1-p}A$
+\item Offensichtlich, da $E\brc{\norm{X_i}1_{\brac{\norm{X_i}>k}}}\leq E\brc{Y1_{\brac{\norm{X_i}>k}}}$
 \end{enumerate}
 
 \subsection{Lemma (Beschränkte Konvergenz)}
 \label{2.15}
-Sei $\folge{X}{n}$ eine Folge von Zufallsvariablen und X eine Zufallsvariable. Falls $X_n\xrightarrow[n\rightarrow\infty]{p}X$ und ein $k\geq 0$ existiert mit $\norm{X_n(\omega)}\leq k\ \forall n\in\N,\omega\in\Omega,$ so gilt $X_n\xrightarrow[n\rightarrow\infty]{\lp{1}}X$ und insbesondere $E(X_n)\xrightarrow[n\rightarrow\infty]E(X)$\\
+Sei $\folge{X}{n}$ eine Folge von Zufallsvariablen und X eine Zufallsvariable. Falls $X_n\xrightarrow[n\rightarrow\infty]{p}X$ und ein $k\geq 0$ existiert mit $\norm{X_n(\omega)}\leq k\ \forall n\in\N,\omega\in\Omega,$ so gilt $X_n\xrightarrow[n\rightarrow\infty]{\lp{1}}X$ und insbesondere $E(X_n)\xrightarrow[n\rightarrow\infty]{}E(X)$\\
 \beweis
 Zunächst zeigen wir $P\brc{\norm{X}\leq k}=1$. \\
 Für $k\in\N$ gilt \\
@@ -433,13 +433,13 @@ $P\brc{\norm{X}>K+k^{-1}}\leq P\brc{\norm{X-X_n}>k^{-1}}\ \forall n\in\N\\
 \Ra P\brc{\norm{X}>k}=P\brc{\CUP[]{k\in\N}\brac{\norm{X}>k+k^{-1}}}=0$.\\
 Sei nun $\varepsilon>0$. Wähle $n_0$ so, dass \[P\brc{\norm{X_n-X}>\dfrac{\varepsilon}{3}}<\dfrac{\varepsilon}{3k}\ \forall n\geq n_0\]
 Dann gilt $\forall n\geq n_0:\\
-E\brc{\norm{X_n-X}}\\\leq E\brc{\norm{X_n-X}\1{\brac{\norm{X_n-X}}}>\dfrac{\varepsilon}{3}}+\dfrac{\varepsilon}{3}\\\leq 2kP\brc{\xnorm>\dfrac{\varepsilon}{3}}+\dfrac{\varepsilon}{3}\leq\varepsilon\ \forall n\geq n_0$
+E\brc{\norm{X_n-X}}\\\leq E\brc{\norm{X_n-X}\1{\brac{\norm{X_n-X}>\dfrac{\varepsilon}{3}}}}+\dfrac{\varepsilon}{3}\\\leq 2kP\brc{\xnorm>\dfrac{\varepsilon}{3}}+\dfrac{\varepsilon}{3}\leq\varepsilon\ \forall n\geq n_0$
 \subsection{Satz}
 Sei $\folge{X}{n}$ eine Folge in $\la$ und $X\in\la$. \\
 Dann gilt $X_n\xrightarrow[n\toinf]{\la}X$ genau dann, wenn
 \begin{enumerate}[label=(\roman*)]
 \item $X_n\xrightarrow {p}X$
-\item $\folge{X}{x}$ ist UI\\
+\item $\folge{X}{n}$ ist UI\\
 \beweis
 Nur für \glqq$\La$\grqq\ und reellwertige Zufallsvariablen!\\
 Für $k\geq 0$ definiere $Y_k:\R\rightarrow\left[ -k,k\right]$ durch\\ $Y_k(x)=k\1{\brac{x>k}}+x\1{\brac{|x|\leq k}}-k\1{\brac{x<-k}}$.\\
