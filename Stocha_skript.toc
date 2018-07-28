@@ -1,4 +1,4 @@
-\select@language {german}
+\babel@toc {german}{}
 \contentsline {part}{I\hspace {1em}Grundlagen der Ma\IeC {\ss }theorethischen Wahrscheinlichkeitstheorie}{6}{part.1}
 \contentsline {section}{\numberline {1}0-1 Gesetze}{6}{section.1}
 \contentsline {subsection}{\numberline {1.1}Definition (liminf,limsup)}{6}{subsection.1.1}
@@ -77,80 +77,80 @@
 \contentsline {subsection}{\numberline {6.1}Definition und Satz}{39}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}Satz}{40}{subsection.6.2}
 \contentsline {subsection}{\numberline {6.3}Satz (bedingte monotone Konvergenz)}{41}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Bemerkung}{41}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.4}Bemerkung}{42}{subsection.6.4}
 \contentsline {subsection}{\numberline {6.5}Satz (Orthogonalprojektion)}{42}{subsection.6.5}
 \contentsline {subsection}{\numberline {6.6}Satz}{42}{subsection.6.6}
 \contentsline {subsection}{\numberline {6.7}Satz (Faktorisierungssatz)}{42}{subsection.6.7}
-\contentsline {section}{\numberline {7}Bedingte Verteilungen}{42}{section.7}
-\contentsline {subsection}{\numberline {7.1}Definition}{43}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Satz}{43}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Satz (Fubini)}{44}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Definition}{44}{subsection.7.4}
-\contentsline {subsection}{\numberline {7.5}Bemerkung}{44}{subsection.7.5}
-\contentsline {subsection}{\numberline {7.6}Satz}{44}{subsection.7.6}
-\contentsline {section}{\numberline {8}Deskriptive Statistik}{45}{section.8}
-\contentsline {subsection}{\numberline {8.1}Folien}{45}{subsection.8.1}
-\contentsline {section}{\numberline {9}Einf\IeC {\"u}hrung in die induktive Statistik}{45}{section.9}
-\contentsline {subsection}{\numberline {9.1}Definition}{45}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Annahme}{46}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Definition}{46}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Lemma}{46}{subsection.9.4}
-\contentsline {subsection}{\numberline {9.5}Beispiel}{46}{subsection.9.5}
-\contentsline {subsection}{\numberline {9.6}Definition}{47}{subsection.9.6}
-\contentsline {subsection}{\numberline {9.7}Bemerkung}{47}{subsection.9.7}
-\contentsline {section}{\numberline {10}Suffizienz}{47}{section.10}
-\contentsline {subsection}{\numberline {10.1}Beispiele}{48}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Definition}{48}{subsection.10.2}
-\contentsline {subsection}{\numberline {10.3}Lemma}{49}{subsection.10.3}
-\contentsline {subsection}{\numberline {10.4}Bemerkung (Extremf\IeC {\"a}lle)}{49}{subsection.10.4}
-\contentsline {subsection}{\numberline {10.5}Lemma}{49}{subsection.10.5}
-\contentsline {subsection}{\numberline {10.6}Satz (Rao-Blackwell)}{49}{subsection.10.6}
-\contentsline {subsection}{\numberline {10.7}Satz (Neyman-Kriterium)}{50}{subsection.10.7}
-\contentsline {subsection}{\numberline {10.8}Bemerkung}{50}{subsection.10.8}
-\contentsline {subsection}{\numberline {10.9}Korollar}{51}{subsection.10.9}
-\contentsline {subsection}{\numberline {10.10}Korollar}{51}{subsection.10.10}
-\contentsline {subsection}{\numberline {10.11}Korollar}{51}{subsection.10.11}
-\contentsline {subsection}{\numberline {10.12}Korollar}{51}{subsection.10.12}
-\contentsline {subsection}{\numberline {10.13}Definition}{52}{subsection.10.13}
-\contentsline {subsection}{\numberline {10.14}Satz}{52}{subsection.10.14}
-\contentsline {subsection}{\numberline {10.15}Beispiel (Suffizienz und Exponentialfamilien)}{52}{subsection.10.15}
-\contentsline {subsection}{\numberline {10.16}Beispiel (Suffizienz ohne Exponentialfamilie)}{53}{subsection.10.16}
-\contentsline {section}{\numberline {11}Vollst\IeC {\"a}ndigkeit und UMVU Sch\IeC {\"a}tzer}{54}{section.11}
-\contentsline {subsection}{\numberline {11.1}Definition}{54}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}Bemerkung}{54}{subsection.11.2}
-\contentsline {subsection}{\numberline {11.3}Satz (Eindeutigkeit)}{54}{subsection.11.3}
-\contentsline {subsection}{\numberline {11.4}Satz (Raosche Kovarianzmethode)}{54}{subsection.11.4}
-\contentsline {subsection}{\numberline {11.5}Definition (Vollst\IeC {\"a}ndige $\sigma $-Algebra)}{55}{subsection.11.5}
-\contentsline {subsection}{\numberline {11.6}Bemerkung}{55}{subsection.11.6}
-\contentsline {subsection}{\numberline {11.7}Beispiel}{56}{subsection.11.7}
-\contentsline {subsection}{\numberline {11.8}Satz (Lehmann-Scheffe)}{56}{subsection.11.8}
-\contentsline {subsection}{\numberline {11.9}Beispiel}{57}{subsection.11.9}
-\contentsline {subsection}{\numberline {11.10}Beispiel}{57}{subsection.11.10}
-\contentsline {subsection}{\numberline {11.11}Lemma (Momente bei Exponentialfamilien)}{58}{subsection.11.11}
-\contentsline {subsection}{\numberline {11.12}Definition}{60}{subsection.11.12}
-\contentsline {subsection}{\numberline {11.13}Satz (Eindeutigkeitssatz)}{60}{subsection.11.13}
-\contentsline {subsection}{\numberline {11.14}Satz}{60}{subsection.11.14}
-\contentsline {subsection}{\numberline {11.15}Beispiel}{61}{subsection.11.15}
-\contentsline {section}{\numberline {12}U-Statistiken}{63}{section.12}
-\contentsline {subsection}{\numberline {12.1}Definition}{63}{subsection.12.1}
-\contentsline {subsection}{\numberline {12.2}Satz}{63}{subsection.12.2}
-\contentsline {subsection}{\numberline {12.3}Beispiel}{65}{subsection.12.3}
-\contentsline {subsection}{\numberline {12.4}Definition}{65}{subsection.12.4}
-\contentsline {subsection}{\numberline {12.5}Lemma}{66}{subsection.12.5}
-\contentsline {subsection}{\numberline {12.6}Definition und Satz}{66}{subsection.12.6}
-\contentsline {subsection}{\numberline {12.7}Beispiel}{66}{subsection.12.7}
-\contentsline {subsection}{\numberline {12.8}Satz (Basu)}{67}{subsection.12.8}
-\contentsline {subsection}{\numberline {12.9}Beispiel}{67}{subsection.12.9}
-\contentsline {section}{\numberline {13}Die Cramer-Rao-Ungleichung}{69}{section.13}
-\contentsline {subsection}{\numberline {13.1}Annahme}{69}{subsection.13.1}
-\contentsline {subsection}{\numberline {13.2}Definition}{69}{subsection.13.2}
-\contentsline {subsection}{\numberline {13.3}Satz}{70}{subsection.13.3}
-\contentsline {subsection}{\numberline {13.4}Bemerkung}{71}{subsection.13.4}
-\contentsline {subsection}{\numberline {13.5}Beispiel (Exponentialfamilie)}{71}{subsection.13.5}
-\contentsline {section}{\numberline {14}Bayes-Sch\IeC {\"a}tzer}{72}{section.14}
-\contentsline {subsection}{\numberline {14.1}Definition}{72}{subsection.14.1}
-\contentsline {subsection}{\numberline {14.2}Modell}{72}{subsection.14.2}
-\contentsline {subsection}{\numberline {14.3}Bemerkung}{72}{subsection.14.3}
-\contentsline {subsection}{\numberline {14.4}Satz}{73}{subsection.14.4}
-\contentsline {subsection}{\numberline {14.5}Beispiel}{74}{subsection.14.5}
-\contentsline {section}{\numberline {15}Lineare Regression}{74}{section.15}
+\contentsline {section}{\numberline {7}Bedingte Verteilungen}{44}{section.7}
+\contentsline {subsection}{\numberline {7.1}Definition}{44}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Satz}{44}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Satz (Fubini)}{45}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Definition}{45}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.5}Bemerkung}{45}{subsection.7.5}
+\contentsline {subsection}{\numberline {7.6}Satz}{45}{subsection.7.6}
+\contentsline {section}{\numberline {8}Deskriptive Statistik}{47}{section.8}
+\contentsline {subsection}{\numberline {8.1}Folien}{47}{subsection.8.1}
+\contentsline {section}{\numberline {9}Einf\IeC {\"u}hrung in die induktive Statistik}{48}{section.9}
+\contentsline {subsection}{\numberline {9.1}Definition}{48}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Annahme}{48}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Definition}{48}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Lemma}{48}{subsection.9.4}
+\contentsline {subsection}{\numberline {9.5}Beispiel}{49}{subsection.9.5}
+\contentsline {subsection}{\numberline {9.6}Definition}{49}{subsection.9.6}
+\contentsline {subsection}{\numberline {9.7}Bemerkung}{49}{subsection.9.7}
+\contentsline {section}{\numberline {10}Suffizienz}{51}{section.10}
+\contentsline {subsection}{\numberline {10.1}Beispiele}{51}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Definition}{51}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}Lemma}{52}{subsection.10.3}
+\contentsline {subsection}{\numberline {10.4}Bemerkung (Extremf\IeC {\"a}lle)}{52}{subsection.10.4}
+\contentsline {subsection}{\numberline {10.5}Lemma}{52}{subsection.10.5}
+\contentsline {subsection}{\numberline {10.6}Satz (Rao-Blackwell)}{53}{subsection.10.6}
+\contentsline {subsection}{\numberline {10.7}Satz (Neyman-Kriterium)}{53}{subsection.10.7}
+\contentsline {subsection}{\numberline {10.8}Bemerkung}{53}{subsection.10.8}
+\contentsline {subsection}{\numberline {10.9}Korollar}{54}{subsection.10.9}
+\contentsline {subsection}{\numberline {10.10}Korollar}{54}{subsection.10.10}
+\contentsline {subsection}{\numberline {10.11}Korollar}{54}{subsection.10.11}
+\contentsline {subsection}{\numberline {10.12}Korollar}{55}{subsection.10.12}
+\contentsline {subsection}{\numberline {10.13}Definition}{55}{subsection.10.13}
+\contentsline {subsection}{\numberline {10.14}Satz}{55}{subsection.10.14}
+\contentsline {subsection}{\numberline {10.15}Beispiel (Suffizienz und Exponentialfamilien)}{55}{subsection.10.15}
+\contentsline {subsection}{\numberline {10.16}Beispiel (Suffizienz ohne Exponentialfamilie)}{56}{subsection.10.16}
+\contentsline {section}{\numberline {11}Vollst\IeC {\"a}ndigkeit und UMVU Sch\IeC {\"a}tzer}{57}{section.11}
+\contentsline {subsection}{\numberline {11.1}Definition}{57}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}Bemerkung}{57}{subsection.11.2}
+\contentsline {subsection}{\numberline {11.3}Satz (Eindeutigkeit)}{57}{subsection.11.3}
+\contentsline {subsection}{\numberline {11.4}Satz (Raosche Kovarianzmethode)}{57}{subsection.11.4}
+\contentsline {subsection}{\numberline {11.5}Definition (Vollst\IeC {\"a}ndige $\sigma $-Algebra)}{58}{subsection.11.5}
+\contentsline {subsection}{\numberline {11.6}Bemerkung}{58}{subsection.11.6}
+\contentsline {subsection}{\numberline {11.7}Beispiel}{59}{subsection.11.7}
+\contentsline {subsection}{\numberline {11.8}Satz (Lehmann-Scheffe)}{59}{subsection.11.8}
+\contentsline {subsection}{\numberline {11.9}Beispiel}{60}{subsection.11.9}
+\contentsline {subsection}{\numberline {11.10}Beispiel}{60}{subsection.11.10}
+\contentsline {subsection}{\numberline {11.11}Lemma (Momente bei Exponentialfamilien)}{61}{subsection.11.11}
+\contentsline {subsection}{\numberline {11.12}Definition}{63}{subsection.11.12}
+\contentsline {subsection}{\numberline {11.13}Satz (Eindeutigkeitssatz)}{63}{subsection.11.13}
+\contentsline {subsection}{\numberline {11.14}Satz}{63}{subsection.11.14}
+\contentsline {subsection}{\numberline {11.15}Beispiel}{64}{subsection.11.15}
+\contentsline {section}{\numberline {12}U-Statistiken}{66}{section.12}
+\contentsline {subsection}{\numberline {12.1}Definition}{66}{subsection.12.1}
+\contentsline {subsection}{\numberline {12.2}Satz}{66}{subsection.12.2}
+\contentsline {subsection}{\numberline {12.3}Beispiel}{68}{subsection.12.3}
+\contentsline {subsection}{\numberline {12.4}Definition}{68}{subsection.12.4}
+\contentsline {subsection}{\numberline {12.5}Lemma}{69}{subsection.12.5}
+\contentsline {subsection}{\numberline {12.6}Definition und Satz}{69}{subsection.12.6}
+\contentsline {subsection}{\numberline {12.7}Beispiel}{69}{subsection.12.7}
+\contentsline {subsection}{\numberline {12.8}Satz (Basu)}{70}{subsection.12.8}
+\contentsline {subsection}{\numberline {12.9}Beispiel}{70}{subsection.12.9}
+\contentsline {section}{\numberline {13}Die Cramer-Rao-Ungleichung}{72}{section.13}
+\contentsline {subsection}{\numberline {13.1}Annahme}{72}{subsection.13.1}
+\contentsline {subsection}{\numberline {13.2}Definition}{72}{subsection.13.2}
+\contentsline {subsection}{\numberline {13.3}Satz}{73}{subsection.13.3}
+\contentsline {subsection}{\numberline {13.4}Bemerkung}{74}{subsection.13.4}
+\contentsline {subsection}{\numberline {13.5}Beispiel (Exponentialfamilie)}{74}{subsection.13.5}
+\contentsline {section}{\numberline {14}Bayes-Sch\IeC {\"a}tzer}{75}{section.14}
+\contentsline {subsection}{\numberline {14.1}Definition}{75}{subsection.14.1}
+\contentsline {subsection}{\numberline {14.2}Modell}{75}{subsection.14.2}
+\contentsline {subsection}{\numberline {14.3}Bemerkung}{75}{subsection.14.3}
+\contentsline {subsection}{\numberline {14.4}Satz}{76}{subsection.14.4}
+\contentsline {subsection}{\numberline {14.5}Beispiel}{77}{subsection.14.5}
+\contentsline {section}{\numberline {15}Lineare Regression}{77}{section.15}

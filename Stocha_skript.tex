@@ -321,7 +321,7 @@ $\mc{L}^p$ ist für $p\in (0,1)$ ein vollständiger metrischer Raum mit Metrik $
 Sei $(X_n)_{n\in\N}$ eine Folge von Zufallsvariablen und X eine Zufallsvariable. Dann sind äquivalent:\begin{enumerate}[label=(\alph*)]
 \item $X_n\xrightarrow{p}X\ ,n\rightarrow\infty$
 \item Für jede Teilfolge $(n_k)_{k\in\N}\text{ von }\N\ \exists\text{ eine Teilfolge dieser Teilfolge }(n_{k_l})_{l\in\N}$ mit $X_{n_{k_l}}\xrightarrow[l\rightarrow\infty]{f.s.}X$.
-\item $d(X_n,X):=E(1\wedge \Vert X_n-X\Vert	)\xrightarrow[n\rightarrow\infty]{}0$
+\item $d(X_n,X):=E(1\wedge \Vert X_n-X\Vert	)\xrightarrow[n\rightarrow\infty]{}0$ (mit $1\wedge x=min(1,x)$)
 \end{enumerate}
 
 \textbf{Beweis}\\
@@ -394,7 +394,7 @@ Seien $\folge{X}{n},X$ Zufallsvariablen mit $X_n\xrightarrow{f.s.}X$ und $\lsup\
 Weitere wichtige Konvergenzsätze nutzen das Konzept der Gleichgradigen Integrierbarkeit (uniform integrability).
 
 \subsection{Definition (Gleichgradige Integrierbarkeit)}
-Sie $\mc{I}$ eine Indexmenge. Eine Familie $\folge[\mc{I}]{X}{i}$ von Zufallsvariablen heißt \underline{gleichgradig integrierbar}, (UI), falls\\ $\forall\varepsilon>0\ \exists k>0:\ E\brc{\norm{X_i}1_{\brac{\norm{X_i}>k}}}<\varepsilon\ \forall i\in\mc{I}$
+Sei $\mc{I}$ eine Indexmenge. Eine Familie $\folge[\mc{I}]{X}{i}$ von Zufallsvariablen heißt \underline{gleichgradig integrierbar}, (UI), falls\\ $\forall\varepsilon>0\ \exists k>0:\ E\brc{\norm{X_i}1_{\brac{\norm{X_i}>k}}}<\varepsilon\ \forall i\in\mc{I}$
 
 \subsection{Lemma (Einelementige Familien sind UI)}
 Sei $X\in\mc{L}^1$. Dann $\forall\varepsilon>0\ \exists k>0:\ E\brc{\norm{X}1_{\brac{\norm{X}>k}}}<\varepsilon$, d.h. jede einelementige Familie integrierbarer Zufallsvariablen ist gleichgradig integrierbar.\\
@@ -486,7 +486,7 @@ Im Folgenden betrachten wir der Einfachheit halber nur relle Zufallsvariablen.
 \subsection{Satz (Vergleich mit Konvegenz in Wahrscheinlichkeit)}
 \label{3.4}
 Sei $\folge{X}{n}$ eine Folge von Zufallsvariablen, $X$ eine Zufallsvariable und $C\in\R$ eine  Konstante. Dann gilt:\begin{enumerate}[label=(\alph*)]
-\item $X_N\xr{p}X\Ra X_n\xr{d}X$
+\item $X_n\xr{p}X\Ra X_n\xr{d}X$
 \item $X_n\xr{d}C\Ra X_n\xr{p}C$ (beachte: Konvergenz in Wahrscheinlichkeit gegen eine Konstante macht auch auf verschiedenen Grundräumen Sinn)
 \item $X_n\xr{d}X$ und $h:\R\ra\R$ stetig $\Ra h(X_n)\xr{d}h(X)$.
 \end{enumerate}
@@ -683,7 +683,7 @@ Mit Slutzky folgt $T_n\xr{d}\dfrac{X_0}{1}\sim N(0,1)$
 \label{3.14}
 \begin{enumerate}[label=(\alph*)]
 \item Eine Folge $\folge{P}{n}$ von Wahrscheinlichkeitsmaßen auf $\R$ heißt straff, falls $\forall\varepsilon>0$ ein $k>0$ existiert mit\\
-$\sup\limits_{n\in\N}P_n([-K,K]^c)\leq\varepsilon$
+$\sup\limits_{n\in\N}P_n([-k,k]^c)\leq\varepsilon$
 \item Eine Folge $\folge{X}{n}$ von Zufallsvariablen heißt straff, falls $(\mc{L}(X_n))_{n\in\N}$ straff ist.
 \end{enumerate}
 
@@ -721,7 +721,7 @@ $\int fd\mu=\int Re(f)d\mu+i\int Im(f)d\mu$ und (praktisch) alle Aussagen aus de
 \item Sei $\mu$ ein Wahrscheinlichkeitsmaß auf $\R^d$. Dann heißt \\
 $\widehat\mu:\R^d\ra\C, t\mapsto\int e^{i \langle x,t\rangle}\mu(dx)$\\
 die \underline{Fouriertransformierte von $\mu$}.
-\item Sei $x:\raum\ra\rbor$ eine Zufallsvariable. Dann heißt \\
+\item Sei $X:\raum\ra\rbor$ eine Zufallsvariable. Dann heißt \\
 $\varphi_X(t)=\widehat{P^X}(t)=E(e^{i\langle X,t\rangle})$\\
 die charakteristische Funktion von $X$.
 \end{enumerate}
@@ -737,7 +737,7 @@ Sei $\mu$ ein Wahrscheinlichkeitsmaß auf $\rbor$. Dann gelten:
 \item Für $a,b\in\R, X$ reellwertige Zufallsvariable\\
 $\varphi_{aX+b}(t)=e^{ibt}\varphi_X(at)$
 \item $\varphi_{-X}=\overline{\varphi_X}$
-\item \begin{enumerate}
+\item \begin{enumerate}[label=(\roman*)]
 \item Sei $\vartheta$ ein weiteres Wahrscheinlichkeitsmaß auf $\R$:\\
 $\widehat{\mu*\vartheta}=\widehat\mu \widehat\vartheta$
 \item Seien $X_1, X_2:\Omega\ra\R$ unabhängige Zufallsvariablen:\\
@@ -875,7 +875,7 @@ $\lambda^{-1}\int\limits_0^\lambda\underbrace{1}_{\intr 1\mu(dx)}-\underbrace{Re
 \lambda^{-1}\int\limits_0^\lambda\intr(1-cos(xt))\mu(dx)dt\\
 \xlongequal{Fubini}\intr\lambda^{-1}\int\limits_0^\lambda(1-cos(xt))dt\mu(dx)\\
 \geq\int\limits_{\brac{x:|x|\geq\lambda^{-1}}}\lambda^{-1}\brc{t-\dfrac{sin(xt)}{x}}\Bigg|_{t=0}^\lambda\mu(dx)\\
-=\int\limits_{\brac{x:|x|\geq\lambda^{-1}}}\brc{1-\dfrac{sin(\lambda x}{\lambda x}}\mu(dx)\\
+=\int\limits_{\brac{x:|x|\geq\lambda^{-1}}}\brc{1-\dfrac{sin(\lambda x)}{\lambda x}}\mu(dx)\\
 \geq \int\limits_{\brac{x:|x|\geq\lambda^{-1}}}(1-sin(1))\mu(dx)\geq\dfrac{1}{7}\mu\brac{x:|x|\geq\lambda^{-1}}$\\
 Denn $\dfrac{sin(t)}{t}\leq sin(1)\leq\dfrac{6}{7}\forall t\geq 1$\QED
 
@@ -1052,14 +1052,14 @@ Sei $X_{nl}$ ein Dreiecksschema von Zufallsvariablen. Existiert ein $\delta>0$ m
 $\sm[n]{l=1}E\brc{\vert X_{nl}\vert^{2+\delta}}\xr{n\toinf}0$, dann erfüllt das Dreiecksschema die \hyperref[5.4]{Lindebergbedingung}.\\
 \beweis
 Sei $\varepsilon>0$.\\
-$L_n(\varepsilon)=\sm[n]{l=1}E(X_{nl}^2\underbrace{\varepsilon^\delta}_{<|X_{nl}|^\delta}\varepsilon^{-\delta}\1{\brac{|X_{n1}|>\varepsilon}}\leq\varepsilon^{-\delta}\sm[n]{l=1}E\brc{|X_{nl}|^{2+\delta}}\xr{n\toinf}0$
+$L_n(\varepsilon)=\sm[n]{l=1}E(X_{nl}^2\underbrace{\varepsilon^\delta}_{<|X_{nl}|^\delta}\varepsilon^{-\delta}\1{\brac{|X_{n1}|>\varepsilon}})\leq\varepsilon^{-\delta}\sm[n]{l=1}E\brc{|X_{nl}|^{2+\delta}}\xr{n\toinf}0$
 
 \subsection{Bemerkung}
 \label{5.8}
 \begin{enumerate}[label=(\alph*)]
 \item Interpretiert man $N(0,0)$ als $\delta_0$ so gilt \hyperref[5.4]{Satz 5.4} auch, falls $\delta^2=0$.\\
 \beweis
-Dann gilt $Var\brc{\sm[n]{l=1}X_{nl}}\ra 0$ und mit \tscheb folgt $\sm[n]{l=1}X_{nl}\xr{p}0$\QED
+Dann gilt $Var\brc{\sm[n]{l=1}X_{nl}}\ra 0$ und mit \tscheb \ folgt $\sm[n]{l=1}X_{nl}\xr{p}0$\QED
 \item Es gibt Varianten des ZGWS,die keine Unabhängigkeit fordern, dafür aber geeignete asymptotische Unabhängigkeit (und mehr Momente).
 \item Es ist auch möglich, ähnliche Resultate für Zufallsvariablen ohne zweite Momente zu zeigen. Die Grenzverteilungen sind dann stabile Verteilungen.
 \end{enumerate}
@@ -1100,7 +1100,7 @@ $\bullet\qquad\dfrac{\sm[n]{l=1}\dfrac{1}{l}-log(n)}{\sqrt{log(n)}}\ra 0\text{, 
 Sei $X_{nl}:\raum\rbor$ ein Dreiecksschema zeilenweise unabhängiger Zufallsvektoren mit $X_{nl}\in\lp{2}\quad\forall n,l$. Setze $\Sigma_{nl}=Cov(X_{nl})$ \ ($d\times d$ symmetrische strikt positiv definite Matrix). Wenn\begin{enumerate}[label=(\alph*)]
 \item $\sm[n]{l=1}E(X_{nl})=0\in\R^d$
 \item $\sm[n]{l=1}\Sigma_{nl}\xr{n\toinf}\Sigma $($d\times d$ symmetrische strikt positiv definite Matrix)
-\item $L_n(\varepsilon):=\sm[n]{l=1}E\brc{\norm{X{nl}}^2\1{\norm{X_{nl}}>\varepsilon}}\xr{n\toinf}0\quad\forall\varepsilon>0$
+\item $L_n(\varepsilon):=\sm[n]{l=1}E\brc{\norm{X_{nl}}^2\1{\brac{\norm{X_{nl}}>\varepsilon}}}\xr{n\toinf}0\quad\forall\varepsilon>0$
 \end{enumerate}
 dann gilt \[\sm[n]{l=1}X_{nl}\xr{d}N(0,\Sigma)\]
 \beweis
@@ -1139,7 +1139,7 @@ Dann gilt
 
 
 
-
+\pagebreak
 \section{Bedingte Erwartungswerte}
 \marginpar{11.Vorlesung, 24.05.2018}
 Erinnerung an Elementare Wahrscheinlichkeitsrechnung und Statistik:\\
@@ -1171,11 +1171,13 @@ Man nennt Z die bedingte Erwartung von X gegeben $\g$, i.Z. $Z=E(X|\g)$.
 Seien $\mu,\nu$ zwei Maße auf $(\Omega,F)$.\\
 $\mu$ heißt absolutstetig bezüglich $\nu$, (i.Z. $\mu\ll\nu)$, wemm $\nu(A)=0\Ra\mu(A)=0$\\
 $\mu$ und $\nu$ heißen äquivalent, wenn $\mu\ll\nu$ und $\nu\ll\mu$
+\\
 
 \textbf{Satz von Radon-Nikodym}\\
 \label{Radon}
 Wenn $\mu\ll\nu$, dann gibt es $Z:\Omega\ra\R^+,\ Z\geq0$ und messbar mit $\int1_Bd\mu=\int1_BZd\nu\quad\forall B\in\f$\\
 \grqq$\underbrace{\dfrac{d\mu}{d\nu}}_{\text{Radon-Nikodym-Ableitung}}$\grqq$=Z$
+\\
 \textbf{Beweis von Satz 6.1}
 \begin{enumerate}[label=(\alph*)]
 \item \begin{enumerate}[label=(\roman*)]
@@ -1289,7 +1291,7 @@ ausgelassen (auch in der Vorlesung)\QED
 
 
 
-
+\pagebreak
 \section{Bedingte Verteilungen}
 Für Zufallsvariablen $X,Y$ wollen wir sinnvoll bedingte Wahrscheinlichkeitsmaße $P(X\in\cdot\;|Y=y)$ erklären.
 
@@ -1397,7 +1399,7 @@ $\Ra$ Für $\rbor$-wertige Zufallsvariablen existieren stets bedingte Verteilung
 
 
 
-
+\pagebreak
 \textbf{\huge{Teil 2: Statistik}}
 \section{Deskriptive Statistik}
 \marginpar{14.Vorlesung, 11.6.2018}
@@ -1405,7 +1407,7 @@ $\Ra$ Für $\rbor$-wertige Zufallsvariablen existieren stets bedingte Verteilung
 %\includepdf[pages=-]{kap8.pdf}
 
 
-
+\pagebreak
 \section{Einführung in die induktive Statistik}
 \marginpar{15.Vorlesung, 14.06.2018}
 \subsection{Definition}
@@ -1430,6 +1432,7 @@ Sei $\raum$ SE und $D$ eine Menge (\underline{Entscheidungsraum}).\begin{enumera
 \item Für einen integrierbaren Punktschätzer $T$ heißt \[
 Bias_\vartheta(T):=E_\vartheta(T)-g(\vartheta)\]
 \underline{der Bias/die Verzerrung} von $T$ in $\vartheta$.\\
+\\
 Für (quadratintegrierbare) Schätzer heißt \[
 MSE_\vartheta(T):=E_\vartheta(\norm{T-g(\vartheta)}^2)\]
 der \underline{mean-squared-error} von $T$ in $\vartheta$.
@@ -1441,7 +1444,8 @@ der \underline{mean-squared-error} von $T$ in $\vartheta$.
 
 \subsection{Beispiel}
 \label{9.5}
-Sei $(\R^n,B(\R^n),\p=P^{\theta n})$ mit $P\in M_1(\R,B(\R))\quad$ ( = Menge aller Wahrscheinlichkeitsmaße auf $(\R,B(\R)))$ ein n-faches Produktmodell und $g:\p\ra M_1(\R,B(\R))=:D\\
+Sei $(\R^n,B(\R^n),\p=P^{\theta n})$ mit $P\in M_1(\R,B(\R))\quad$ ( = Menge aller Wahrscheinlichkeitsmaße auf $(\R,B(\R)))$ ein n-faches Produktmodell und \\
+$g:\p\ra M_1(\R,B(\R))=:D\\
 P^\stuff\mapsto P$.\\
 Dann ist das empirische Maß $T(x_1,...,x_n):=\dfrac{1}{n}\sumi\delta_{x-i}$ ein Schätzer für $g$. (Wir verzichten absichtlich auf Details zu $\mc{D}$ und zur Messbarkeit)
 
@@ -1476,6 +1480,7 @@ $\Ra \p\ll\mu*\lambda$\\
 $\mu*\lambda(A)=\int \lambda(A-y)d\mu(y)=\lambda(A)\underbrace{\int d\mu(y)}_{=1}=\lambda(A)$
 \end{enumerate}
 
+\pagebreak
 \section{Suffizienz}
 $X_1,...,X_n$ seien Realisierungen unabhängiger Versuchswiederholungen nach einer unbekannten Verteilung P auf $(\Omega,F)$.\\
 n-faches Produktmodell: $\p=\brac{P_\vartheta^\stuff:\vartheta\in\theta}$.\\
@@ -1672,6 +1677,7 @@ Somit ist $\mc{P}$ sicher keine Exponentialfamilie. Aber $T(x)=\brc{\min\limits_
 \]
 womit das Neyman-Kriterium erfüllt ist.
 
+\pagebreak
 \section{Vollständigkeit und UMVU Schätzer}
 Der Satz von Rao-Blackwell bietet ein Verfahren zur Verbesserung erwartungstreuer Schätzer durch Nutzung sufizienter $\sigma$-Algebren an. Wir werden nun versuchen, optimale Schätzer zu erhalten.
 
@@ -2031,6 +2037,8 @@ $\uu_n(x_1,...,x_n)=\mat{n\\m}^{-1}\sum\limits_{1\leq i_1<i_2<...<i_m\leq n}h(x_
 ist erwartungstreu für $g$ mit \\
 $\uu_n=E_\bullet(\tilde h|Y_n)$ wobei $\tilde h(x_1,...,x_n):;h(x_1,...,x_m)$
 \item Ist $Y_n$ vollständig für $\p^n\subseteq M(\R,B(\R))^\stuff$ und $Var_\vartheta(h)<\infty\qf\vartheta\in\Theta$, dann ist $\uu_n$ UMVUE.\\
+
+\end{enumerate}
 \beweis
 \begin{enumerate}[label=(\alph*)]
 \item Es gilt $E_{P_\vartheta^n}(\tilde h)=E_{P_\vartheta^m}(h)=g(\vartheta)\qf\vartheta\in\Theta$. \\Für $x_1\leq...\leq x_n$ kann man zeigen, dass gilt\\
@@ -2041,7 +2049,9 @@ $m!(n-m)!=\dfrac{n!}{\mat{n\\m}}$\\
 mögliche Permutationen $\pi$ mit $A=\brac{\pi(1),...,\pi(m)}.$\\
 Für all diese ist $h(x_{\pi(1)},...,_{\pi(m)})$ identisch. Es gilt\\
 $(*)=\mat{n\\m}^{-1}\sum\limits_{1\leq i_1<...<i_m\leq n}h(x_{i_1},...,x_{i_m})=\uu_n.$
-\item Da $Y_n$ suffizient und vollständig und $var_\vartheta(h)<\infty\qf\vartheta$, folgt mit a) und dem Soatz von Lehmann-Scheffe die Aussage.\QED
+\item Da $Y_n$ suffizient und vollständig und $var_\vartheta(h)<\infty\qf\vartheta$, folgt mit a) und dem Soatz von Lehmann-Scheffe die Aussage.
+
+\end{enumerate}\QED
 
 \subsection{Beispiel}
 \label{12.7}
@@ -2058,8 +2068,6 @@ als \glqq Robusten Skalenparameterschätzer \grqq.\\
 F$ ist VF z.B. 0 der Normalverteilung)
 \end{enumerate}
 
-\end{enumerate}
-\end{enumerate}
 \marginpar{21.Vorlesung, 09.07.2018}
 \subsection{Satz (Basu)}
 \label{12.8}
